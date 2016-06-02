@@ -1,5 +1,6 @@
 <h2>Welcome to Pizza Shop!</h2>
-
+<br />
+<br />
 <div class="row">
 
 	<% @products.each do |p| %>
@@ -23,11 +24,14 @@
 		<div>
 			Price: <%= p.price %> rub
 		</div>
-
+		<br />
+		<div>
+			<button  class="btn btn-sm btn-success" onclick="something()">Add to cart</button>
+		</div>
 	</div>
 	<% end %>
 </div>
 
 <br />
 <br />
-<button  class="btn btn-primary" onclick="something()">Click me!</button>
+<!-- <button  class="btn btn-primary" onclick="something()">Click me!</button> -->
