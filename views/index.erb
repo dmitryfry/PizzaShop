@@ -4,22 +4,25 @@
 
 	<% @products.each do |p| %>
 	<div class="col-md-3">
-	<div>
-		<%= p.title %>
-	</div>
+		<div>
+			<%= p.title %>
+		</div>
 
-	<div>
-		<img src="<%= p.path_to_image %>" />
-	</div>
+		<div>
+			<img src="<%= p.path_to_image %>" />
+		</div>
 
-	<div>
-		<%= p.price %>
-	</div>
+		<div>
+			<%= p.description %>
+		</div>
 
-	<div>
-		<%= p.description %>
-	</div>
+		<div>
+			Size: <%= p.size %> rub
+		</div>
 
+		<div>
+			Price: <%= p.price %> rub
+		</div>
 
 	</div>
 	<% end %>
