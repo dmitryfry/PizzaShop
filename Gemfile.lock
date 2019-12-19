@@ -22,7 +22,7 @@ GEM
     json (1.8.1)
     minitest (5.9.0)
     multi_json (1.12.1)
-    rack (1.6.11)
+    rack (1.6.12)
     rack-protection (1.5.1)
       rack
     rack-test (0.6.3)
